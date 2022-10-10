@@ -1,5 +1,4 @@
 import { readFile } from 'fs';
-import path from 'path';
 
 readFile('package.json', 'utf8', (error: any, data: any)=> {
   if (error) {
