@@ -1,4 +1,7 @@
 import { readFile } from 'fs';
+import 'dotenv/config';
+
+console.log(`Testing env variables. NODE_ENV: ${process.env.NODE_ENV}`);
 
 readFile('package.json', 'utf8', (error: any, data: any) => {
   if (error) {
