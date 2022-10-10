@@ -13,5 +13,5 @@
     "project": "tsconfig.json"
   },
   "plugins": ["@typescript-eslint", "prettier"],
-  "rules": { "no-console": "error", "prettier/prettier": "error" }
+  "rules": { "no-console": "warn", "prettier/prettier": "error" }
 }
