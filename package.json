@@ -1,0 +1,23 @@
+{
+  "name": "crypto-price-oscillations-backend",
+  "version": "1.0.0",
+  "description": "Using the Uphold API, create a bot that is able to alert you about price oscillations on a given currency pair.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "16.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maira1001001/crypto-price-oscillations-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maira1001001/crypto-price-oscillations-backend/issues"
+  },
+  "homepage": "https://github.com/maira1001001/crypto-price-oscillations-backend#readme"
+}
