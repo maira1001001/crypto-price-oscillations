@@ -1,4 +1,4 @@
-import { Api } from './types/api';
+import { Api } from './types/api.t';
 import { Ticker } from './types/oscillation';
 
 function getTickerForCurrencyPair(api: Api) {

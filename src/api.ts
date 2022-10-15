@@ -1,5 +1,4 @@
 import axios from 'axios';
-import { application } from 'express';
 import { Ticker } from './types/oscillation';
 
 async function getTickerByPair(

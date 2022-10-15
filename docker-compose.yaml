@@ -1,15 +1,10 @@
 version: '3.8'
 services:
   app:
-    container_name: backend-app
-    build:
-      context: .
-    image: backend-dev
+    build: ./
     environment:
       - NODE_ENV=dev
-    command:
-      - tail
-      - -f
+    command: npm run bot
     volumes:
       - .:/app
 volumes:
